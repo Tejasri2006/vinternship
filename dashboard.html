@@ -643,7 +643,7 @@
       if (columns.length === 0 && sample) columns = Object.keys(sample);
     } else {
       // cohort-wise from Dashboard
-      columns = ["Rank", "Name", "Email", "Case Study Progress", "Vibe Progress", "Overall Progress"];
+      columns = ["Rank", "Name", "Email", "Case Study Progress", "Vibe Progress", "Health Points" , "Overall Progress"];
       columns = columns.filter(c => sample && (c in sample));
       if (columns.length === 0 && sample) columns = Object.keys(sample);
     }
